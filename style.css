@@ -1,0 +1,162 @@
+html, body {
+    margin:0;
+    background-color: #333333;
+    overflow-x: hidden;
+    width:100vw;
+}
+
+/* Main Nav Bar Wrapper */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-container{
+    background-color: #333333 ;
+    border-bottom: solid 5px #cccccc
+}
+
+/* Nav Links  */
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.right-side a {
+    text-decoration: none;
+    color: lightcoral;
+    padding-left:30px;
+    letter-spacing: 1px
+}
+
+.right-side a:hover {
+    text-decoration: underline;
+    color: #cccccc;
+}
+
+.nav-wrapper > .right-side > div {
+    display: flex;
+    font-family: Oswald, sans-serif;
+    font-size: 1.5em;
+}
+
+
+/* Logo */
+.brand > p {
+    font-family: Oswald, sans-serif;
+    font-size: 2em;
+    color: lightcoral;
+    font-weight: bolder;
+}
+
+/* Home Content Top*/
+.content-wrapper {
+    background-color: #333333;
+    height: 800px;
+}
+
+.content-image-wrapper > img{
+   opacity: .2;
+   height: 200%;
+   width: 100vw;
+}
+
+.content-image-wrapper {
+    position: absolute;
+}
+
+.image-text-container {
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.left-image-text-heading, .right-image-text-heading {
+    font-size: 1.5em;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #cccccc;
+    font-weight: bolder;
+}
+
+.left-image-subtext, .right-image-subtext {
+    font-size: 1.2em;
+    color: #cccccc;
+    margin-top: -20px;
+}
+
+.left-image-text-wrapper, .right-image-text-wrapper {
+    border: solid 2px lightcoral;
+    width:600px;
+    height: 500px
+}
+
+/* Home Bottom Content */
+.bottom-content-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 500px;
+    justify-content: center;
+    background-color: #333333;
+    align-content: center;
+}
+
+.newsletter > p{
+    font-size: .9em;
+    color: #333333;
+    text-align: center;
+    margin-top: -15px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.newsletter > h1 {
+    font-size: 2em;
+    text-decoration: underline;
+    text-decoration-color: #cccccc;
+    font-weight: bolder;
+    color: lightcoral;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    margin-top: 5%
+}
+
+.newsletter {
+    align-content: center;
+    border: solid 2px lightcoral;
+    width:800px;
+    height: 350px;
+}
+
+.newsletter > p {
+    color: #cccccc
+}
+
+form > p {
+    color:#cccccc
+}
+
+.newsletter-form {
+    text-align: center;
+}
+
+.checkbox  {
+   margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
